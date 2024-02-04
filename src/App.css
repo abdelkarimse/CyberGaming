@@ -1,0 +1,26 @@
+:root {
+  --color-dark: #35424a; /* New dark color */
+  --color-darkset: #2c353c; /* New darkset color */
+  --color-light: #f2f2f2; /* New light color */
+  --color-primary: #6b92a4; /* New primary color */
+  --color-icon-primary: green; /* New icon primary color */
+  --color-bg-body: var(--color-darkset);
+  --distance-primary: 60px; /* New distance primary value */
+  --padding-primary: var(--distance-primary);
+  --margin-primary: calc(var(--distance-primary) / 2);
+  --border-radius-primary: calc(var(--distance-primary) / 2);
+  --font-weight-primary: 700; /* New font weight primary value */
+  --font-weight-second: 400;
+  --font-family-primary:  'Protest Riot', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Open+Sans:wght@700&family=Oswald&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Protest+Riot&display=swap');
+body{
+    background-color:var(--color-bg-body);
+    font-family: 'Protest Riot', sans-serif;}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}

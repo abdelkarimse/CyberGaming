@@ -1,0 +1,10 @@
+.section-wrapper{
+    background-color:var(--color-bg-body);
+    border-radius:var(--border-radius-primary);
+    -webkit-border-radius:var(--border-radius-primary);
+    -moz-border-radius:var(--border-radius-primary);
+    -ms-border-radius:var(--border-radius-primary);
+    -o-border-radius:var(--border-radius-primary);
+    padding: var(--padding-primary);
+    margin-top: var(--margin-primary);
+}

@@ -1,0 +1,39 @@
+.most-popular-item{
+    flex:1 25%;
+
+}
+
+.card-wrapper{
+    background-color:var(--color-dark);
+    border-radius:calc(var(--border-radius-primary)/2);
+    -webkit-border-radius:calc(var(--border-radius-primary)/2);
+    -moz-border-radius:calc(var(--border-radius-primary)/2);
+    -ms-border-radius:calc(var(--border-radius-primary)/2);
+    -o-border-radius:calc(var(--border-radius-primary)/2);
+    padding:calc(var(--padding-primary)/2);
+    margin:calc(var(--margin-primary)/5);
+  
+}
+.most-popular-item-image{
+    max-width:100%;
+    border-radius:calc(var(--border-radius-primary)/4);
+    -webkit-border-radius:calc(var(--border-radius-primary)/4);
+    -moz-border-radius:calc(var(--border-radius-primary)/4);
+    -ms-border-radius:calc(var(--border-radius-primary)/4);
+    -o-border-radius:calc(var(--border-radius-primary)/4);
+    margin-bottom: calc(var(--margin-primary)/2);
+}
+.most-popular-item-content{
+    display:flex;
+    justify-content: space-between;
+}
+.most-popular-item-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.FaStar{
+    color:var(--color-icon-primary);
+}
+.FaDownload{
+    color:var(--color-primary);
+}

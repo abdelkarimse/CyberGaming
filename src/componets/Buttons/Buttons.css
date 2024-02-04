@@ -1,0 +1,30 @@
+.Button{
+    font-size: 14px;
+    color: var(--color-light);
+    border-radius:var(--border-radius-primary);
+    -webkit-border-radius:var(--border-radius-primary);
+    -moz-border-radius:var(--border-radius-primary);
+    -ms-border-radius:var(--border-radius-primary);
+    -o-border-radius:var(--border-radius-primary);
+    padding:12px 30px;
+    letter-spacing: 0.5px;
+    transition: alt 0.3s;
+    -webkit-transition: alt 0.3s;
+    -moz-transition: alt 0.3s;
+    -ms-transition: alt 0.3s;
+    -o-transition: alt 0.3s;
+}    
+.p{
+    background-color:var(--color-primary);
+}
+.p:hover{
+    background-color:var(--color-light);
+    color: var(--color-dark);
+}
+.s{
+    border: 1px solid var(--color-primary);
+}
+.s:hover{
+    border:1px solid var(--color-light);
+    color: var(--color-primary);
+}
